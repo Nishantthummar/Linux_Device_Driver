@@ -1,2 +1,14 @@
 Device Driver 
- https://www.apriorit.com/dev-blog/195-simple-driver-for-linux-os
+https://www.apriorit.com/dev-blog/195-simple-driver-for-linux-os
+
+kernel build
+https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html
+
+Device Tree
+https://www.quora.com/What-is-a-Device-Tree-in-Linux
+http://wiki.dreamrunner.org/public_html/Embedded-System/Linux-Device-Tree.html
+
+cmd for rpi 
+sudo apt-get install raspi-gpio device-tree-compiler
+
+

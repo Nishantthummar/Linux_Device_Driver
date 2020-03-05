@@ -1,0 +1,10 @@
+--- temp.txt	2020-03-03 17:07:24.326359400 +0530
++++ temp1.txt	2020-03-03 17:01:02.420403171 +0530
+@@ -1,5 +1,4 @@
+ Hello
+-Hiiii
++Hi
+ How are you?
+-I am Fine
+-I am Nishant Thummar
++I am NISHANT
