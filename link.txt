@@ -11,4 +11,10 @@ http://wiki.dreamrunner.org/public_html/Embedded-System/Linux-Device-Tree.html
 cmd for rpi 
 sudo apt-get install raspi-gpio device-tree-compiler
 
+Patches
+https://www.thegeekstuff.com/2014/12/patch-command-examples/
+
+in patches commit msg
+https://juffalow.com/other/write-good-git-commit-message
+
 
