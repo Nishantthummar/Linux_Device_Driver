@@ -7,7 +7,7 @@
 #include <linux/cdev.h>
 
 #define DEVICE_NAME "noname" 
-#define CLASS_NAME "ebb"
+#define CLASS_NAME "Yes"
 #define BUF_LEN 80
 
 

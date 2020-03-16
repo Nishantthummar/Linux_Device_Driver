@@ -1,5 +1,5 @@
-obj-m := mychardev.o
-KDIR := /lib/modules/5.3.0-40-generic/build
+obj-m := cdriver.o
+KDIR := /lib/modules/5.0.0-23-generic/build
 PWD := $(shell pwd)
 
 default:
