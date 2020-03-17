@@ -1,0 +1,1 @@
+cmd_/home/nishant/Training/Linux_Device_Driver/ioctl_cdriver.mod := { echo  /home/nishant/Training/Linux_Device_Driver/ioctl_cdriver.o; echo; } > /home/nishant/Training/Linux_Device_Driver/ioctl_cdriver.mod

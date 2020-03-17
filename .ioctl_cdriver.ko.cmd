@@ -1,0 +1,1 @@
+cmd_/home/nishant/Training/Linux_Device_Driver/ioctl_cdriver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/nishant/Training/Linux_Device_Driver/ioctl_cdriver.ko /home/nishant/Training/Linux_Device_Driver/ioctl_cdriver.o /home/nishant/Training/Linux_Device_Driver/ioctl_cdriver.mod.o ;  true
