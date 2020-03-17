@@ -16,7 +16,7 @@ MODULE_AUTHOR("Nishant");
 static int major; //!< variable to store major number of driver
 static struct class* myclass = NULL;
 static struct device* mydevice = NULL;
-//static char msg[100] = "Hello World from Kernel" ;
+static char msg[100] = "Hello World from Kernel" ;
 
 ///////////////////////// function prototype //////////////////////////////////
 static int device_open(struct inode *, struct file *); 
@@ -90,9 +90,15 @@ static ssize_t device_read(struct file *file, char *buf,
 		size_t count, loff_t *offset)
 {
 	char *data = "Hello World from kernel";
-	int len = strlen(data);
+	int len = 100;
 	raw_copy_to_user(buf, data, len);
+	//while(len >=0) {
+	//	put_user(*(data++), buf++);
+	//	len--;
+
+	//}
 	printk(KERN_INFO "Reading...");
+	printk(KERN_INFO "The data is %s", buf);
        	return 0;
 }
 
@@ -102,9 +108,10 @@ static ssize_t device_read(struct file *file, char *buf,
 static ssize_t device_write(struct file *file, const char __user *buf, 
 		size_t count, loff_t *offset)
 {
-	char *data= '\0';
-	raw_copy_from_user(data, buf, 100);
-	printk(KERN_INFO "the data is %s", data);
+	//char data;
+	raw_copy_from_user(msg, buf, 100);
+	//get_user(*msg, buf);
+	printk(KERN_INFO "the data is %s", msg);
 	return 0;
 }
 

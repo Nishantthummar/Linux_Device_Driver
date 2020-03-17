@@ -1,4 +1,4 @@
-cmd_/home/nishant/Training/Linux_Device_Driver/cdriver.o := gcc -Wp,-MD,/home/nishant/Training/Linux_Device_Driver/.cdriver.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include  -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror-implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"cdriver"' -DKBUILD_MODNAME='"cdriver"' -c -o /home/nishant/Training/Linux_Device_Driver/cdriver.o /home/nishant/Training/Linux_Device_Driver/cdriver.c
+cmd_/home/nishant/Training/Linux_Device_Driver/cdriver.o := gcc -Wp,-MD,/home/nishant/Training/Linux_Device_Driver/.cdriver.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include  -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"cdriver"' -DKBUILD_MODNAME='"cdriver"' -c -o /home/nishant/Training/Linux_Device_Driver/cdriver.o /home/nishant/Training/Linux_Device_Driver/cdriver.c
 
 source_/home/nishant/Training/Linux_Device_Driver/cdriver.o := /home/nishant/Training/Linux_Device_Driver/cdriver.c
 
@@ -10,7 +10,6 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/linux/compiler_types.h \
     $(wildcard include/config/have/arch/compiler/h.h) \
     $(wildcard include/config/enable/must/check.h) \
-    $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
@@ -48,7 +47,6 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/linux/types.h \
     $(wildcard include/config/have/uid16.h) \
     $(wildcard include/config/uid16.h) \
-    $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
   include/linux/stringify.h \
@@ -69,6 +67,7 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/kallsyms.h) \
     $(wildcard include/config/tracepoints.h) \
+    $(wildcard include/config/tree/srcu.h) \
     $(wildcard include/config/bpf/events.h) \
     $(wildcard include/config/jump/label.h) \
     $(wildcard include/config/tracing.h) \
@@ -91,9 +90,10 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/prove/locking.h) \
     $(wildcard include/config/arch/has/refcount.h) \
     $(wildcard include/config/lock/down/kernel.h) \
-    $(wildcard include/config/lock/down/mandatory.h) \
     $(wildcard include/config/panic/timeout.h) \
   /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
   include/linux/linkage.h \
   include/linux/export.h \
     $(wildcard include/config/modversions.h) \
@@ -128,6 +128,7 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/x86/5level.h) \
     $(wildcard include/config/page/table/isolation.h) \
   include/asm-generic/bitops/const_hweight.h \
+  include/asm-generic/bitops-instrumented.h \
   include/asm-generic/bitops/le.h \
   arch/x86/include/uapi/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
@@ -164,6 +165,8 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/have/arch/jump/label/relative.h) \
   arch/x86/include/asm/jump_label.h \
   include/linux/build_bug.h \
+  arch/x86/include/asm/div64.h \
+  include/asm-generic/div64.h \
   include/linux/stat.h \
   arch/x86/include/uapi/asm/stat.h \
   include/uapi/linux/stat.h \
@@ -204,12 +207,10 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
   include/linux/restart_block.h \
   include/linux/time64.h \
-    $(wildcard include/config/64bit/time.h) \
   include/linux/math64.h \
     $(wildcard include/config/arch/supports/int128.h) \
-  arch/x86/include/asm/div64.h \
-  include/asm-generic/div64.h \
   include/uapi/linux/time.h \
+  include/uapi/linux/time_types.h \
   arch/x86/include/asm/current.h \
   arch/x86/include/asm/thread_info.h \
     $(wildcard include/config/vm86.h) \
@@ -241,7 +242,6 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/x86.h) \
   include/uapi/video/edid.h \
   arch/x86/include/asm/page_64_types.h \
-    $(wildcard include/config/kasan/extra.h) \
     $(wildcard include/config/dynamic/memory/layout.h) \
     $(wildcard include/config/randomize/base.h) \
   arch/x86/include/asm/kaslr.h \
@@ -296,7 +296,6 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/paravirt/spinlocks.h) \
   include/asm-generic/qspinlock_types.h \
   include/asm-generic/qrwlock_types.h \
-  include/asm-generic/ptrace.h \
   arch/x86/include/uapi/asm/sigcontext.h \
   arch/x86/include/asm/msr.h \
   arch/x86/include/asm/msr-index.h \
@@ -325,6 +324,7 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/asm-generic/atomic-instrumented.h \
   include/linux/tracepoint-defs.h \
   include/linux/atomic.h \
+  include/linux/atomic-fallback.h \
     $(wildcard include/config/generic/atomic64.h) \
   include/asm-generic/atomic-long.h \
   arch/x86/include/asm/paravirt.h \
@@ -344,6 +344,9 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/trace/irqflags/support.h) \
   arch/x86/include/asm/irqflags.h \
   include/linux/bottom_half.h \
+  arch/x86/include/generated/asm/mmiowb.h \
+  include/asm-generic/mmiowb.h \
+    $(wildcard include/config/mmiowb.h) \
   include/linux/spinlock_types.h \
   include/linux/lockdep.h \
     $(wildcard include/config/lockdep.h) \
@@ -387,6 +390,16 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/inline/read/unlock/irqrestore.h) \
     $(wildcard include/config/inline/write/unlock/irqrestore.h) \
   include/linux/time32.h \
+  include/linux/timex.h \
+  include/uapi/linux/timex.h \
+  include/uapi/linux/param.h \
+  arch/x86/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/hz.h) \
+  include/uapi/asm-generic/param.h \
+  arch/x86/include/asm/timex.h \
+  arch/x86/include/asm/tsc.h \
+    $(wildcard include/config/x86/tsc.h) \
   include/linux/uidgid.h \
     $(wildcard include/config/multiuser.h) \
     $(wildcard include/config/user/ns.h) \
@@ -400,17 +413,19 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/zone/device.h) \
     $(wildcard include/config/numa.h) \
     $(wildcard include/config/pm/sleep.h) \
-    $(wildcard include/config/memory/isolation.h) \
-    $(wildcard include/config/compaction.h) \
+    $(wildcard include/config/contig/alloc.h) \
     $(wildcard include/config/cma.h) \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/vm.h) \
     $(wildcard include/config/debug/vm/pgflags.h) \
   include/linux/mmzone.h \
     $(wildcard include/config/force/max/zoneorder.h) \
+    $(wildcard include/config/memory/isolation.h) \
+    $(wildcard include/config/shuffle/page/allocator.h) \
     $(wildcard include/config/zsmalloc.h) \
     $(wildcard include/config/memcg.h) \
     $(wildcard include/config/memory/hotplug.h) \
+    $(wildcard include/config/compaction.h) \
     $(wildcard include/config/flat/node/mem/map.h) \
     $(wildcard include/config/page/extension.h) \
     $(wildcard include/config/deferred/struct/page/init.h) \
@@ -437,27 +452,24 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/numa/balancing.h) \
     $(wildcard include/config/kasan/sw/tags.h) \
   include/generated/bounds.h \
-  include/linux/memory_hotplug.h \
-    $(wildcard include/config/arch/has/add/pages.h) \
-    $(wildcard include/config/have/arch/nodedata/extension.h) \
-    $(wildcard include/config/have/bootmem/info/node.h) \
-  include/linux/notifier.h \
-    $(wildcard include/config/tree/srcu.h) \
-  include/linux/errno.h \
-  include/uapi/linux/errno.h \
-  include/linux/mutex.h \
-    $(wildcard include/config/mutex/spin/on/owner.h) \
-    $(wildcard include/config/debug/mutexes.h) \
-  include/linux/osq_lock.h \
-  include/linux/debug_locks.h \
-    $(wildcard include/config/debug/locking/api/selftests.h) \
-  include/linux/rwsem.h \
-    $(wildcard include/config/rwsem/spin/on/owner.h) \
-    $(wildcard include/config/rwsem/generic/spinlock.h) \
-  arch/x86/include/asm/rwsem.h \
-  include/linux/srcu.h \
-    $(wildcard include/config/tiny/srcu.h) \
-    $(wildcard include/config/srcu.h) \
+  include/linux/mm_types.h \
+    $(wildcard include/config/have/aligned/struct/page.h) \
+    $(wildcard include/config/userfaultfd.h) \
+    $(wildcard include/config/swap.h) \
+    $(wildcard include/config/have/arch/compat/mmap/bases.h) \
+    $(wildcard include/config/membarrier.h) \
+    $(wildcard include/config/aio.h) \
+    $(wildcard include/config/mmu/notifier.h) \
+    $(wildcard include/config/arch/want/batched/unmap/tlb/flush.h) \
+    $(wildcard include/config/hmm/mirror.h) \
+  include/linux/mm_types_task.h \
+    $(wildcard include/config/split/ptlock/cpus.h) \
+    $(wildcard include/config/arch/enable/split/pmd/ptlock.h) \
+  arch/x86/include/asm/tlbbatch.h \
+  include/linux/auxvec.h \
+  include/uapi/linux/auxvec.h \
+  arch/x86/include/uapi/asm/auxvec.h \
+  include/linux/rbtree.h \
   include/linux/rcupdate.h \
     $(wildcard include/config/preempt/rcu.h) \
     $(wildcard include/config/rcu/stall/common.h) \
@@ -471,6 +483,24 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/rcu/boost.h) \
     $(wildcard include/config/arch/weak/release/acquire.h) \
   include/linux/rcutree.h \
+  include/linux/rwsem.h \
+    $(wildcard include/config/rwsem/spin/on/owner.h) \
+  include/linux/osq_lock.h \
+  include/linux/completion.h \
+  include/linux/uprobes.h \
+    $(wildcard include/config/uprobes.h) \
+  include/linux/errno.h \
+  include/uapi/linux/errno.h \
+  arch/x86/include/asm/uprobes.h \
+  include/linux/notifier.h \
+  include/linux/mutex.h \
+    $(wildcard include/config/mutex/spin/on/owner.h) \
+    $(wildcard include/config/debug/mutexes.h) \
+  include/linux/debug_locks.h \
+    $(wildcard include/config/debug/locking/api/selftests.h) \
+  include/linux/srcu.h \
+    $(wildcard include/config/tiny/srcu.h) \
+    $(wildcard include/config/srcu.h) \
   include/linux/workqueue.h \
     $(wildcard include/config/debug/objects/work.h) \
     $(wildcard include/config/freezer.h) \
@@ -480,16 +510,6 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/no/hz/common.h) \
   include/linux/ktime.h \
   include/linux/jiffies.h \
-  include/linux/timex.h \
-  include/uapi/linux/timex.h \
-  include/uapi/linux/param.h \
-  arch/x86/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/hz.h) \
-  include/uapi/asm-generic/param.h \
-  arch/x86/include/asm/timex.h \
-  arch/x86/include/asm/tsc.h \
-    $(wildcard include/config/x86/tsc.h) \
   include/generated/timeconst.h \
   include/linux/timekeeping.h \
   include/linux/timekeeping32.h \
@@ -501,7 +521,18 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/linux/rcu_node_tree.h \
     $(wildcard include/config/rcu/fanout.h) \
     $(wildcard include/config/rcu/fanout/leaf.h) \
-  include/linux/completion.h \
+  arch/x86/include/asm/mmu.h \
+    $(wildcard include/config/modify/ldt/syscall.h) \
+  include/linux/page-flags.h \
+    $(wildcard include/config/arch/uses/pg/uncached.h) \
+    $(wildcard include/config/memory/failure.h) \
+    $(wildcard include/config/idle/page/tracking.h) \
+    $(wildcard include/config/thp/swap.h) \
+    $(wildcard include/config/ksm.h) \
+  include/linux/memory_hotplug.h \
+    $(wildcard include/config/arch/has/add/pages.h) \
+    $(wildcard include/config/have/arch/nodedata/extension.h) \
+    $(wildcard include/config/have/bootmem/info/node.h) \
   arch/x86/include/asm/mmzone.h \
   arch/x86/include/asm/mmzone_64.h \
   arch/x86/include/asm/smp.h \
@@ -532,8 +563,6 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   arch/x86/include/asm/topology.h \
     $(wildcard include/config/sched/mc/prio.h) \
   include/asm-generic/topology.h \
-  arch/x86/include/asm/mmu.h \
-    $(wildcard include/config/modify/ldt/syscall.h) \
   arch/x86/include/asm/realmode.h \
     $(wildcard include/config/acpi/sleep.h) \
   arch/x86/include/asm/io.h \
@@ -557,35 +586,16 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/linux/vmalloc.h \
   include/linux/llist.h \
     $(wildcard include/config/arch/have/nmi/safe/cmpxchg.h) \
-  include/linux/rbtree.h \
   include/linux/overflow.h \
   arch/x86/include/uapi/asm/vsyscall.h \
   include/asm-generic/fixmap.h \
-  include/linux/mm_types.h \
-    $(wildcard include/config/have/aligned/struct/page.h) \
-    $(wildcard include/config/userfaultfd.h) \
-    $(wildcard include/config/have/arch/compat/mmap/bases.h) \
-    $(wildcard include/config/membarrier.h) \
-    $(wildcard include/config/aio.h) \
-    $(wildcard include/config/mmu/notifier.h) \
-    $(wildcard include/config/arch/want/batched/unmap/tlb/flush.h) \
-    $(wildcard include/config/hmm.h) \
-  include/linux/mm_types_task.h \
-    $(wildcard include/config/split/ptlock/cpus.h) \
-    $(wildcard include/config/arch/enable/split/pmd/ptlock.h) \
-  arch/x86/include/asm/tlbbatch.h \
-  include/linux/auxvec.h \
-  include/uapi/linux/auxvec.h \
-  arch/x86/include/uapi/asm/auxvec.h \
-  include/linux/uprobes.h \
-    $(wildcard include/config/uprobes.h) \
-  arch/x86/include/asm/uprobes.h \
   arch/x86/include/asm/hardirq.h \
     $(wildcard include/config/kvm/intel.h) \
     $(wildcard include/config/have/kvm.h) \
     $(wildcard include/config/x86/thermal/vector.h) \
     $(wildcard include/config/x86/mce/threshold.h) \
     $(wildcard include/config/x86/mce/amd.h) \
+    $(wildcard include/config/x86/hv/callback/vector.h) \
     $(wildcard include/config/hyperv.h) \
   arch/x86/include/asm/io_apic.h \
   arch/x86/include/asm/irq_vectors.h \
@@ -669,6 +679,7 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/generic/msi/irq/domain.h) \
     $(wildcard include/config/pinctrl.h) \
     $(wildcard include/config/generic/msi/irq.h) \
+    $(wildcard include/config/dma/declare/coherent.h) \
     $(wildcard include/config/dma/cma.h) \
     $(wildcard include/config/arch/has/sync/dma/for/device.h) \
     $(wildcard include/config/arch/has/sync/dma/for/cpu.h) \
@@ -687,6 +698,7 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/high/res/timers.h) \
     $(wildcard include/config/time/low/res.h) \
     $(wildcard include/config/timerfd.h) \
+  include/linux/hrtimer_defs.h \
   include/linux/timerqueue.h \
   include/linux/ratelimit.h \
   include/linux/sched.h \
@@ -695,6 +707,8 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/schedstats.h) \
     $(wildcard include/config/fair/group/sched.h) \
     $(wildcard include/config/rt/group/sched.h) \
+    $(wildcard include/config/uclamp/task.h) \
+    $(wildcard include/config/uclamp/buckets/count.h) \
     $(wildcard include/config/cgroup/sched.h) \
     $(wildcard include/config/blk/dev/io/trace.h) \
     $(wildcard include/config/psi.h) \
@@ -704,8 +718,10 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/arch/has/scaled/cputime.h) \
     $(wildcard include/config/virt/cpu/accounting/gen.h) \
     $(wildcard include/config/posix/timers.h) \
+    $(wildcard include/config/keys.h) \
     $(wildcard include/config/sysvipc.h) \
     $(wildcard include/config/detect/hung/task.h) \
+    $(wildcard include/config/audit.h) \
     $(wildcard include/config/auditsyscall.h) \
     $(wildcard include/config/rt/mutexes.h) \
     $(wildcard include/config/ubsan.h) \
@@ -747,7 +763,7 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/linux/kcov.h \
   include/uapi/linux/kcov.h \
   include/linux/plist.h \
-    $(wildcard include/config/debug/pi/list.h) \
+    $(wildcard include/config/debug/plist.h) \
   include/linux/seccomp.h \
     $(wildcard include/config/seccomp.h) \
     $(wildcard include/config/have/arch/seccomp/filter.h) \
@@ -778,7 +794,6 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/uapi/asm-generic/signal-defs.h \
   arch/x86/include/uapi/asm/siginfo.h \
   include/uapi/asm-generic/siginfo.h \
-  include/linux/psi_types.h \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/task/io/accounting.h) \
   include/uapi/linux/rseq.h \
@@ -793,15 +808,16 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
     $(wildcard include/config/fs/posix/acl.h) \
     $(wildcard include/config/cgroup/writeback.h) \
     $(wildcard include/config/ima.h) \
+    $(wildcard include/config/file/locking.h) \
     $(wildcard include/config/fsnotify.h) \
     $(wildcard include/config/fs/encryption.h) \
     $(wildcard include/config/epoll.h) \
-    $(wildcard include/config/file/locking.h) \
     $(wildcard include/config/quota.h) \
     $(wildcard include/config/blk/dev/loop.h) \
     $(wildcard include/config/fs/dax.h) \
     $(wildcard include/config/mandatory/file/locking.h) \
     $(wildcard include/config/migration.h) \
+    $(wildcard include/config/io/uring.h) \
   include/linux/wait_bit.h \
   include/linux/kdev_t.h \
   include/uapi/linux/kdev_t.h \
@@ -823,6 +839,7 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/uapi/linux/capability.h \
   include/linux/semaphore.h \
   include/linux/fcntl.h \
+    $(wildcard include/config/arch/32bit/off/t.h) \
   include/uapi/linux/fcntl.h \
   arch/x86/include/uapi/asm/fcntl.h \
   include/uapi/asm-generic/fcntl.h \
@@ -838,8 +855,8 @@ deps_/home/nishant/Training/Linux_Device_Driver/cdriver.o := \
   include/linux/ioprio.h \
   include/linux/sched/rt.h \
   include/linux/iocontext.h \
+  include/linux/fs_types.h \
   include/uapi/linux/fs.h \
-  include/uapi/linux/limits.h \
   include/linux/quota.h \
     $(wildcard include/config/quota/netlink/interface.h) \
   include/linux/percpu_counter.h \
