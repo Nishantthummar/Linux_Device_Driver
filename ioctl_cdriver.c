@@ -100,6 +100,7 @@ static long etx_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
 
 		default:
 			printk(KERN_ALERT "please Invalid command");
+			return -ENOTTY;
 	}
 	return 0;
 }
