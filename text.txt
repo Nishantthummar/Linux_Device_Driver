@@ -1,3 +1,9 @@
 https://embetronicx.com/tutorials/linux/device-drivers/ioctl-tutorial-in-linux/
 
 https://opensourceforu.com/2011/04/character-device-files-creation-operations/
+
+https://medium.com/@christina.jacob.koikara/the-kernel-debugging-techniques-for-a-device-driver-developer-on-arm64-fa984e4d2a09
+
+https://www.kernel.org/doc/html/v4.17/dev-tools/kgdb.html
+
+https://www.youtube.com/watch?v=HBOwoSyRmys
