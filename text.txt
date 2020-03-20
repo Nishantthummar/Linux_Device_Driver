@@ -17,3 +17,5 @@ https://www.youtube.com/watch?v=EpabBljarPM
 for rpi
 https://www.youtube.com/watch?v=84T-P5ye864
 https://github.com/raspberrypi/linux
+https://bob.cs.sonoma.edu/IntroCompOrg-RPi/sec-gpio-pins.html
+
