@@ -1,6 +1,7 @@
-obj-m := interrupt.o
-KDIR := /lib/modules/5.3.0-42-generic/build
+obj-m := led_driver.o
+KDIR := /lib/modules/4.14.79-v7+/build
 PWD := $(shell pwd)
 
 default:
 	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD)
+
