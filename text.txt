@@ -8,13 +8,13 @@ https://www.kernel.org/doc/html/v4.17/dev-tools/kgdb.html
 
 https://www.youtube.com/watch?v=HBOwoSyRmys
 
-
 custom kernel 
 
 https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html
 https://www.youtube.com/watch?v=EpabBljarPM
 
 for rpi
+
 https://www.youtube.com/watch?v=84T-P5ye864
 https://github.com/raspberrypi/linux
 https://bob.cs.sonoma.edu/IntroCompOrg-RPi/sec-gpio-pins.html
