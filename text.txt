@@ -14,6 +14,7 @@ https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html
 https://www.youtube.com/watch?v=EpabBljarPM
 
 for rpi
+https://www.raspberrypi.org/documentation/linux/kernel/building.md
 
 https://www.youtube.com/watch?v=84T-P5ye864
 https://github.com/raspberrypi/linux
