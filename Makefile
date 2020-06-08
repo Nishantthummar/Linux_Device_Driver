@@ -1,5 +1,5 @@
-obj-m := led_driver.o
-KDIR := /lib/modules/4.14.79-v7+/build
+obj-m := kernel_msg.o
+KDIR := /lib/modules/5.3.0-42-generic/build
 PWD := $(shell pwd)
 
 default:
