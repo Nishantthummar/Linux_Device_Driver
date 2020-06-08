@@ -1,0 +1,1 @@
+cmd_/home/nishant/poky/meta-self/recipes-self/self/files/self.mod := { echo  /home/nishant/poky/meta-self/recipes-self/self/files/self.o; echo; } > /home/nishant/poky/meta-self/recipes-self/self/files/self.mod

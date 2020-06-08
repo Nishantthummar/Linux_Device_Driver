@@ -1,0 +1,1 @@
+cmd_/home/nishant/poky/meta-self/recipes-self/self/files/self.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/nishant/poky/meta-self/recipes-self/self/files/self.ko /home/nishant/poky/meta-self/recipes-self/self/files/self.o /home/nishant/poky/meta-self/recipes-self/self/files/self.mod.o ;  true
